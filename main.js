@@ -1,5 +1,5 @@
 
-const btnOpen = document.querySelector('.open');
+const btnOpen = document.querySelector('.fa-bars');
 const btnClose = document.querySelector('.close');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 btnOpen.classList.add('open');
