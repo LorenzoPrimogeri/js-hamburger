@@ -1,10 +1,11 @@
-const btnOpen = document.querySelector('.fa-bars');
-const btnClose = document.querySelector('.fa-times');
+
+const btnOpen = document.querySelector('.open');
+const btnClose = document.querySelector('.close');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+btnOpen.classList.add('open');
 btnOpen.addEventListener('click', function () {
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
     hamburgerMenu.style.display = 'block';
 })
 btnClose.addEventListener('click', function () {
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
     hamburgerMenu.style.display = 'none';
 })
