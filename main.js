@@ -4,8 +4,8 @@ const btnClose = document.querySelector('.fa-times');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 
 btnOpen.addEventListener('click', function () {
-    hamburgerMenu.classList.add('active');
+    hamburgerMenu.classList.toggle('active');
 })
 btnClose.addEventListener('click', function () {
-    hamburgerMenu.classList.remove('active');
+    hamburgerMenu.classList.toggle('active');
 })
